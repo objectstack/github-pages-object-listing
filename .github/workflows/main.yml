@@ -14,7 +14,7 @@ jobs:
           ref: dummy-data
 
       - name: Generate Directory Listings
-        uses: objectstack/github-pages-object-listing.git@master
+        uses: objectstack/github-pages-object-listing@master
         with:
           FOLDER: data
 
